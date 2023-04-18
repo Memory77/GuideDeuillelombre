@@ -1,0 +1,145 @@
+/* BOOTSTRAP 3 MEDIA QUERIES */
+
+
+/* Large Devices (desktops and laptops)*/
+
+@media (min-width: 1200px) {
+    
+    /* ok for this media query */
+   
+}
+
+/* Medium Devices (landscape tabets and medium desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    /* mobile menu*/
+    
+    .navbar {
+        background: rgba(0,0,0, .7);
+        padding: 0;
+    }
+    .navbar-nav{
+        float: left;
+    
+    }
+    .dlombre-nav-wrapper {
+        padding: 0;
+    }
+
+    /* page accueil */
+    #stats-img{
+        margin-left: 5px;
+        }
+    #stats p{
+        margin-left: 32px;
+    }
+}
+    
+
+/* Small devices (portraits tablets and small desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        background: rgba(0,0,0, .7);
+        padding: 0;
+    }
+    .navbar-nav{
+        float: left;
+    
+    }
+    .dlombre-nav-wrapper {
+        padding: 0;
+    }
+
+    /* page accueil */
+    #introduction-content h1{
+        font-size: 50px;
+    }
+    #stats p{
+        margin-left: 32px;
+    }
+
+    #stats-img img{
+        margin-left: 5px;
+    }
+
+    /* page quete */
+    #quete-content{
+        margin: 10% 15%;
+    }
+    
+    /* Footer */
+    #footer-copyrights{
+        text-align: center;
+    }
+
+    #img-right img{
+        width: 100%;
+    }
+      
+}
+
+/* Extra small devices (landscape phones and portrait tablets) */
+
+@media (max-width: 767px) {
+    .navbar {
+        background: rgba(0,0,0, .7);
+        padding: 0;
+    }
+    .navbar-nav{
+        float: left;
+    
+    }
+    .dlombre-nav-wrapper {
+        padding: 0;
+    }
+    /* Home*/
+
+    #home-heading h3{
+        font-size: 24px;
+    }
+    /* button*/
+    .btn-general{
+    padding: 6px 22px 6px 22px;
+    font-size: 14px;
+    }
+
+    /* page accueil */
+    #introduction-content h1{
+        font-size: 50px;
+    }
+    #stats-img img{
+    margin-left: 5px;
+    }
+    /* page quete */
+    #quete-content{
+        margin: 10% 15%;
+    }
+   
+  
+    /* Footer */
+    #footer-copyrights {
+        text-align: center;
+    }
+
+    #img-right img{
+        margin-left: 30px;
+        width: 100%;
+    }
+}
+
+/* Extra Small Devices (Portrait Phones and Smaller devices)  */
+@media (max-width: 480px) {
+    #introduction-content h1{
+        font-size: 30px;
+    }
+
+}
+
+/* Extra Small Devices (Portrait Phones and Smaller devices) */
+@media (max-width: 320px) {
+  
+    
+}
+
